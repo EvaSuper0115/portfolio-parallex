@@ -1,3 +1,63 @@
+:root {
+  --box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
 * {
-  background-color: black;
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  color: rgb(205, 204, 204);
+}
+
+.hi {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: #111;
+  overflow: hidden;
+}
+.hi h1 {
+  font-size: 20vw;
+  color: #eabeff;
+}
+.hiText-container {
+  flex: 3;
+  cursor: default;
+}
+.image-container {
+  flex: 2;
+}
+.profile-pic {
+  border-radius: 72vh 0 0 0;
+  box-shadow: var(--box-shadow);
+  width: 100%;
+}
+.name-container h1 {
+  font-size: 15vw;
+}
+.name-container {
+  height: 100vh;
+  background-color: rgb(43, 0, 43);
+  cursor: default;
+  text-align: center;
+  line-height: 100vh;
+}
+.name {
+  font-family: "Dancing Script", cursive;
+  font-size: 20vw;
+  color: #eabeff;
+}
+.job-title-container {
+  height: 100vh;
+  cursor: default;
+  text-align: center;
+}
+.job-title-container h1 {
+  font-size: 9vw;
+  line-height: 100vh;
+}
+.dark {
+  background: black;
+}
+.purple {
+  background-color: rgb(77, 1, 77);
 }
