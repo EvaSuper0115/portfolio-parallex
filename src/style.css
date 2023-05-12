@@ -198,3 +198,20 @@ small {
   border-radius: 20px;
   overflow: scroll;
 }
+.github-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.github-container h1 {
+  font-size: 100px;
+}
+.github-chart {
+  width: 820px;
+}
+.dates {
+  font-size: 12px;
+  padding: 10px;
+}
