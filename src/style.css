@@ -1,10 +1,10 @@
 :root {
   --box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-  --button-hover-transition: 0.8s all;
+  --button-hover-transition: 0.7s all;
 }
 button {
   cursor: pointer;
-  border-radius: 10px;
+  border-radius: 30px;
   padding: 20px 30px;
   background-color: transparent;
   border: 5px solid;
@@ -127,7 +127,14 @@ small {
   font-size: 1.5vw;
   text-align: justify;
 }
-.launch-button {
+.button-set {
+  gap: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.launch-button,
+.source-code-button {
   position: relative;
   overflow: hidden;
 }
@@ -145,6 +152,21 @@ small {
   align-items: center;
   justify-content: center;
 }
-.launch-button:hover.launch-button::after {
+.launch-button:hover.launch-button::after,
+.source-code-button:hover.source-code-button::after {
   transform: translateX(100%);
+}
+.source-code-button::after {
+  content: "Source code";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  background-color: rgb(205, 204, 204);
+  color: #111;
+  transition: var(--button-hover-transition);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
