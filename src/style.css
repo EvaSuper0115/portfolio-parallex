@@ -1,5 +1,17 @@
 :root {
   --box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  --button-hover-transition: 0.8s all;
+}
+button {
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 20px 30px;
+  background-color: transparent;
+  border: 5px solid;
+  font-size: 2vw;
+}
+small {
+  font-size: 1vw;
 }
 * {
   padding: 0;
@@ -66,9 +78,11 @@
   flex-direction: column;
   gap: 30vh;
   padding: 0 100px;
+  cursor: default;
 }
 .project-title {
-  font-size: 8vw;
+  font-size: 7vw;
+  cursor: default;
 }
 .project {
   display: flex;
@@ -80,9 +94,7 @@
 .project-description {
   font-size: 2vw;
 }
-.launch-button {
-  font-size: 3vw;
-}
+
 .weather-app-iphone {
   height: 1578px;
   width: 796px;
@@ -110,4 +122,29 @@
   flex-direction: column;
   gap: 50px;
   align-items: center;
+}
+.project-description {
+  font-size: 1.5vw;
+  text-align: justify;
+}
+.launch-button {
+  position: relative;
+  overflow: hidden;
+}
+.launch-button::after {
+  content: "Launch app";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  background-color: rgb(205, 204, 204);
+  color: #111;
+  transition: var(--button-hover-transition);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.launch-button:hover.launch-button::after {
+  transform: translateX(100%);
 }
