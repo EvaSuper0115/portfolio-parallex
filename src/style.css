@@ -182,18 +182,19 @@ small {
   justify-content: center;
 }
 .travel-page-laptop {
-  height: 1435px;
-  width: 2400px;
   position: relative;
   flex: 1;
 }
-
+.empty-laptop {
+  height: 1004px;
+  width: 1680px;
+}
 .laptop-screen {
-  height: 1300px;
-  width: 1950px;
+  height: 910px;
+  width: 1300px;
   position: absolute;
-  top: 80px;
-  left: 270px;
+  top: 56px;
+  left: 189px;
   border-radius: 20px;
   overflow: scroll;
 }
