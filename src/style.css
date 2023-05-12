@@ -81,7 +81,7 @@ small {
   cursor: default;
 }
 .project-title {
-  font-size: 7vw;
+  font-size: 5vw;
   cursor: default;
 }
 .project {
@@ -110,7 +110,8 @@ small {
   border-radius: 80px;
   overflow: scroll;
 }
-.phone-screen::-webkit-scrollbar {
+.phone-screen::-webkit-scrollbar,
+.laptop-screen::-webkit-scrollbar {
   display: none;
 }
 .weather-app-page {
@@ -169,4 +170,24 @@ small {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.travel-page-laptop {
+  height: 1435px;
+  width: 2400px;
+  position: relative;
+  flex: 1;
+}
+
+.laptop-screen {
+  height: 1300px;
+  width: 1950px;
+  position: absolute;
+  top: 80px;
+  left: 270px;
+  border-radius: 20px;
+  overflow: scroll;
+}
+
+.travel-page {
+  width: 100%;
 }
