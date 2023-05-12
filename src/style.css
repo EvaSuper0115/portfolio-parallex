@@ -91,11 +91,14 @@ small {
   height: 100vh;
   overflow: hidden;
 }
+.project:nth-child(2n) {
+  flex-direction: row-reverse;
+}
 .project-description {
   font-size: 2vw;
 }
 
-.weather-app-iphone {
+.iphone-app {
   height: 1578px;
   width: 796px;
   position: relative;
@@ -110,11 +113,18 @@ small {
   border-radius: 80px;
   overflow: scroll;
 }
+.dictionary-app-iphone {
+  position: relative;
+  flex: 1;
+  height: 1578px;
+  width: 796px;
+}
+
 .phone-screen::-webkit-scrollbar,
 .laptop-screen::-webkit-scrollbar {
   display: none;
 }
-.weather-app-page {
+.app-page {
   width: 100%;
 }
 .project-detail {
@@ -186,8 +196,4 @@ small {
   left: 270px;
   border-radius: 20px;
   overflow: scroll;
-}
-
-.travel-page {
-  width: 100%;
 }
