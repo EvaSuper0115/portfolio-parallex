@@ -29,7 +29,7 @@ small {
 }
 .hi h1 {
   font-size: 20vw;
-  color: #eabeff;
+  color: #4e0073;
 }
 .hiText-container {
   flex: 3;
@@ -44,33 +44,37 @@ small {
   width: 100%;
 }
 .name-container h1 {
-  font-size: 15vw;
+  font-size: 8vw;
 }
 .name-container {
   height: 100vh;
-  background-color: rgb(43, 0, 43);
+  background-color: #4e0073;
   cursor: default;
-  text-align: center;
   line-height: 100vh;
 }
 .name {
   font-family: "Dancing Script", cursive;
-  font-size: 20vw;
-  color: #eabeff;
+  font-size: 18vw;
+  color: #ffecff;
 }
+
 .job-title-container {
   height: 100vh;
   cursor: default;
+  display: flex;
+  justify-content: center;
 }
 .job-title-container h1 {
-  font-size: 9vw;
+  font-size: 8vw;
   line-height: 100vh;
 }
 .dark {
-  background: black;
+  background: url(pngBackground.png), rgba(0, 0, 0, 0.595);
+  background-size: cover;
 }
 .purple {
-  background-color: rgb(77, 1, 77);
+  background: url(pngBackground.png), rgb(79, 0, 115);
+  background-size: cover;
 }
 .projects {
   background-color: #111;
@@ -204,14 +208,8 @@ small {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  background-color: #111;
 }
 .github-container h1 {
   font-size: 100px;
-}
-.github-chart {
-  width: 820px;
-}
-.dates {
-  font-size: 12px;
-  padding: 10px;
 }
