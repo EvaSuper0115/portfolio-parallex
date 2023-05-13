@@ -15,6 +15,6 @@ window.addEventListener("scroll", () => {
   myName.style.transform = `translateX(${offsetY * 0.2}px)`;
   jobTitleContainer[0].style.backgroundPositionY = `${offsetY * 0.5}px`;
   jobTitleContainer[1].style.backgroundPositionY = `${-offsetY * 0.5}px`;
-  jobTitle1.style.transform = `translateX(${offsetY * 0.09}px)`;
-  jobTitle2.style.transform = `translateX(${-offsetY * 0.2}px)`;
+  jobTitle1.style.transform = `translateX(calc(200vh - ${offsetY * 0.9}px))`;
+  jobTitle2.style.transform = `translateX(calc(-200vh + ${offsetY * 0.8}px))`;
 });

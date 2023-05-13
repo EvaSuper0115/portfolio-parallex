@@ -65,9 +65,7 @@ small {
   font-size: 8vw;
   line-height: 100vh;
 }
-.web-designer-title {
-  text-align: right;
-}
+
 .dark {
   background: url(geoBackground.png),
     linear-gradient(
