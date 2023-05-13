@@ -97,6 +97,7 @@ small {
 .project-title {
   font-size: 5vw;
   cursor: default;
+  text-align: center;
 }
 .project {
   display: flex;
@@ -104,10 +105,9 @@ small {
   gap: 100px;
   height: 100vh;
   overflow: hidden;
+  flex-direction: row;
 }
-.project:nth-child(2n) {
-  flex-direction: row-reverse;
-}
+
 .project-description {
   font-size: 2vw;
 }
@@ -222,4 +222,13 @@ small {
 }
 .github-container h1 {
   font-size: 100px;
+}
+@media screen and (max-width: 1024px) {
+  .project {
+    flex-direction: column !important;
+  }
+  .project-detail,
+  .app-showcase {
+    transform: none !important;
+  }
 }
