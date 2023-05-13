@@ -60,19 +60,20 @@ small {
 .job-title-container {
   height: 100vh;
   cursor: default;
-  display: flex;
-  justify-content: center;
 }
-.job-title-container h1 {
+.job-titles {
   font-size: 8vw;
   line-height: 100vh;
+}
+.web-designer-title {
+  text-align: right;
 }
 .dark {
   background: url(geoBackground.png),
     linear-gradient(
       181deg,
       rgb(13, 0, 19) 0%,
-      rgb(125, 124, 125) 49%,
+      rgb(89, 89, 89) 49%,
       rgb(13, 0, 19) 100%
     );
   background-size: contain;
@@ -82,7 +83,7 @@ small {
     linear-gradient(
       181deg,
       rgb(78, 0, 115) 0%,
-      rgb(112, 50, 133) 49%,
+      rgb(96, 41, 114) 49%,
       rgb(78, 0, 115) 100%
     );
   background-size: contain;
