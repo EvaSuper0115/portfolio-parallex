@@ -109,22 +109,25 @@ small {
 }
 
 .project-description {
-  font-size: 2vw;
+  font-size: 20px;
+  text-align: justify;
+  line-height: 40px;
 }
 
 .iphone-app {
-  height: 1578px;
-  width: 796px;
+  width: 300px;
+  height: 600px;
   position: relative;
-  flex: 2;
+  flex: 1;
 }
+
 .phone-screen {
-  height: 1492px;
-  width: 716px;
+  width: 264px;
+  height: 567px;
   position: absolute;
-  top: 40px;
-  left: 38px;
-  border-radius: 80px;
+  top: 17px;
+  left: 18px;
+  border-radius: 28px;
   overflow: scroll;
 }
 .dictionary-app-iphone {
@@ -195,21 +198,19 @@ small {
   align-items: center;
   justify-content: center;
 }
-.travel-page-laptop {
-  position: relative;
+.laptop {
+  width: 600px;
+  height: 379px;
   flex: 1;
+  position: relative;
 }
-.empty-laptop {
-  height: 1004px;
-  width: 1680px;
-}
+
 .laptop-screen {
-  height: 910px;
-  width: 1300px;
+  width: 451px;
+  height: 283px;
   position: absolute;
-  top: 56px;
-  left: 189px;
-  border-radius: 20px;
+  top: 18px;
+  left: 68px;
   overflow: scroll;
 }
 .github-container {
