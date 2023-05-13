@@ -13,5 +13,5 @@ window.addEventListener("scroll", () => {
   }px)`;
   myName.style.transform = `translateX(${offsetY * 0.2}px)`;
   jobTitleContainer[0].style.backgroundPositionY = `${offsetY * 0.5}px`;
-  jobTitleContainer[1].style.backgroundPositionY = `${-offsetY * 0.4}px`;
+  jobTitleContainer[1].style.backgroundPositionY = `${-offsetY * 0.5}px`;
 });

@@ -69,12 +69,14 @@ small {
   line-height: 100vh;
 }
 .dark {
-  background: url(pngBackground.png), rgba(0, 0, 0, 0.595);
-  background-size: cover;
+  background: url(geoBackground.png),
+    linear-gradient(184deg, rgb(20, 19, 19) 0%, rgba(57, 56, 59, 0.444) 97%);
+  background-size: contain;
 }
 .purple {
-  background: url(pngBackground.png), rgb(79, 0, 115);
-  background-size: cover;
+  background: url(geoBackground.png),
+    linear-gradient(0deg, rgb(79, 0, 115) 0%, rgb(208, 130, 242) 97%);
+  background-size: contain;
 }
 .projects {
   background-color: #111;
