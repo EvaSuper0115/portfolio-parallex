@@ -98,6 +98,7 @@ small {
   font-size: 5vw;
   cursor: default;
   text-align: center;
+  padding: 5vh;
 }
 .project {
   display: flex;
@@ -129,12 +130,6 @@ small {
   left: 18px;
   border-radius: 28px;
   overflow: scroll;
-}
-.dictionary-app-iphone {
-  position: relative;
-  flex: 1;
-  height: 1578px;
-  width: 796px;
 }
 
 .phone-screen::-webkit-scrollbar,
@@ -228,8 +223,14 @@ small {
   .project {
     flex-direction: column !important;
   }
-  .project-detail,
-  .app-showcase {
+  * {
     transform: none !important;
+  }
+  .job-titles,
+  .name-container {
+    text-align: center;
+  }
+  .app-showcase {
+    max-width: 200px;
   }
 }
